@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital's Club | Anderson Jardim</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at top, #3a2a00 0%, #090909 45%, #000 100%);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 24px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+      text-align: center;
+      border: 1px solid rgba(255, 215, 0, 0.35);
+      border-radius: 24px;
+      padding: 28px 20px;
+      background: rgba(0, 0, 0, 0.72);
+      box-shadow: 0 0 35px rgba(255, 190, 0, 0.25);
+    }
+
+    .badge {
+      display: inline-block;
+      color: #000;
+      background: linear-gradient(90deg, #f5c542, #fff2a6, #c8961e);
+      padding: 8px 16px;
+      border-radius: 30px;
+      font-weight: bold;
+      margin-bottom: 18px;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 32px;
+      line-height: 1.1;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+    }
+
+    h1 span {
+      color: #f5c542;
+      text-shadow: 0 0 12px rgba(245, 197, 66, 0.55);
+    }
+
+    .subtitle {
+      font-size: 17px;
+      line-height: 1.5;
+      color: #ddd;
+      margin-bottom: 24px;
+    }
+
+    .video-box {
+      width: 100%;
+      border-radius: 18px;
+      overflow: hidden;
+      border: 2px solid #d4af37;
+      box-shadow: 0 0 25px rgba(212, 175, 55, 0.35);
+      margin-bottom: 24px;
+      background: #000;
+    }
+
+    video {
+      width: 100%;
+      display: block;
+    }
+
+    .cta {
+      display: block;
+      width: 100%;
+      padding: 18px;
+      border-radius: 14px;
+      background: linear-gradient(90deg, #d4af37, #fff1a8, #b8860b);
+      color: #000;
+      font-size: 18px;
+      font-weight: 900;
+      text-decoration: none;
+      text-transform: uppercase;
+      box-shadow: 0 0 25px rgba(245, 197, 66, 0.45);
+      animation: pulse 1.6s infinite;
+    }
+
+    .cta:hover {
+      transform: scale(1.02);
+    }
+
+    .small {
+      margin-top: 16px;
+      font-size: 13px;
+      color: #aaa;
+      line-height: 1.4;
+    }
+
+    @keyframes pulse {
+      0% { box-shadow: 0 0 0 rgba(245, 197, 66, 0.7); }
+      50% { box-shadow: 0 0 28px rgba(245, 197, 66, 0.9); }
+      100% { box-shadow: 0 0 0 rgba(245, 197, 66, 0.7); }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <div class="badge">Acesso exclusivo</div>
+
+    <h1>
+      A maior <span>oportunidade</span><br>
+      em décadas
+    </h1>
+
+    <p class="subtitle">
+      Estamos só começando. Assista ao vídeo curto abaixo e entenda por que tantas pessoas estão olhando para o Digital's Club com atenção.
+    </p>
+
+    <div class="video-box">
+      <video controls playsinline poster="">
+        <source src="video.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+    </div>
+
+    <a
+      class="cta"
+      href="https://wa.me/5551993857478?text=Olá Anderson! Vi a apresentação do Digital's Club e quero mais informações."
+      target="_blank"
+    >
+      Conversar com Líder Fundador Anderson Jardim
+    </a>
+
+    <p class="small">
+      Assista até o final e tire suas dúvidas diretamente com Anderson Jardim.
+    </p>
+  </main>
+</body>
+</html>
